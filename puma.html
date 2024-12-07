@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUMA Products</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html" class="logo">ty.com</a>
+        <ul class="navmenu">
+            <li><a href="index.html#HOME">Home</a></li>
+            <li><a href="index.html#BRANDS">Brands</a></li>
+            <li><a href="index.html#MEN">Men</a></li>
+            <li><a href="index.html#WOMEN">Women</a></li>
+            <li><a href="index.html#footer">Contact Us</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="#"><box-icon name='search-alt-2'></box-icon></a>
+            <a href="#"><box-icon type='solid' name='heart'></box-icon></a>
+            <a href="#"><box-icon name='cart'></box-icon></a>
+        </div>    
+    </header>
+    
+    <!-- Puma Products Section -->
+    <section class="puma-products">
+        <div class="center-text">
+            <h2>PUMA Products</h2>
+        </div>
+        <div class="n-content">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <img src="https://images.puma.net/images/680641/01/mod01/fnd/IND/w/800/h/800/" alt="PUMA Tshirt">
+                <h3>Tshirt</h3>
+                <div class="product-info">
+                    <p class="price">₹2979</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">☆</span>
+                    </div>
+                </div>
+                <button class="add-to-cart" onclick="addToCart('PUMA Tshirt', 2979)">Add to Cart</button>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <img src="https://images-static.nykaa.com/media/catalog/product/d/8/d83862767593002_1.jpg?tr=w-500" alt="PUMA Jacket">
+                <h3>Jacket</h3>
+                <div class="product-info">
+                    <p class="price">₹2299</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">☆</span>
+                    </div>
+                </div>
+                <button class="add-to-cart" onclick="addToCart('PUMA Jacket', 2299)">Add to Cart</button>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/800x800" alt="PUMA Running Shoes">
+                <h3>Running Shoes</h3>
+                <div class="product-info">
+                    <p class="price">₹3999</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">☆</span>
+                    </div>
+                </div>
+                <button class="add-to-cart" onclick="addToCart('PUMA Running Shoes', 3999)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <p>&copy; TY.com. All rights reserved.</p>
+    </footer>
+
+  
+</body>
+</html>
